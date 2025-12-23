@@ -1,0 +1,16 @@
+{
+  "effect.coffee.coffee_effect": "Caffeinated",
+  "message.coffee.insomnia": "Too much coffee is running through your veins. You cannot sleep!",
+  "item.minecraft.potion.effect.coffee_potion": "Coffee",
+  "item.minecraft.splash_potion.effect.coffee_potion": "Splash Coffee",
+  "item.minecraft.lingering_potion.effect.coffee_potion": "Spilled Coffee",
+  "item.minecraft.tipped_arrow.effect.coffee_potion": "Arrow of Coffee",
+  "item.coffee.coffee_beans": "Roasted Coffee Beans",
+  "item.coffee.coffee_cup": "Coffee Cup",
+  "item.coffee.coffee_cup.effect.water": "Coffee Cup",
+  "item.coffee.coffee_cup.effect.awkward": "Coffee Cup",
+  "item.coffee.coffee_cup.effect.mundane": "Coffee Cup",
+  "item.coffee.coffee_cup.effect.thick": "Coffee Cup",
+  "item.coffee.coffee_cup.effect.empty": "Coffee Cup",
+  "sound.coffee.coffee_cup": "Drinking Coffee"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "minecraft:cocoa_beans",
+  "result": {
+    "id": "coffee:coffee_beans"
+  },
+  "experience": 0.1,
+  "cookingtime": 200
+}

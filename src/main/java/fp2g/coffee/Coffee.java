@@ -1,0 +1,48 @@
+package fp2g.coffee;
+
+import fp2g.coffee.registry.ModItems;
+import fp2g.coffee.registry.ModPotions;
+import fp2g.coffee.registry.ModRecipes;
+import fp2g.coffee.registry.ModSounds;
+import net.fabricmc.api.ModInitializer;
+
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.mob.MobEntity;
+import net.minecraft.item.EggItem;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.util.Identifier;
+import net.minecraft.world.World;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import fp2g.coffee.effect.CoffeeEffect;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
+
+
+public class Coffee implements ModInitializer {
+	public static final String MOD_ID = "coffee";
+
+	// This logger is used to write text to the console and the log file.
+	// It is considered best practice to use your mod id as the logger's name.
+	// That way, it's clear which mod wrote info, warnings, and errors.
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+
+
+	@Override
+	public void onInitialize() {
+		// This code runs as soon as Minecraft is in a mod-load-ready state.
+		// However, some things (like resources) may still be uninitialized.
+		// Proceed with mild caution
+		LOGGER.info("Hello Fabric world!");
+        ModPotions.registerPotions();
+        ModItems.registerModItems();
+        ModSounds.registerSounds();
+        ModRecipes.registerRecipes();
+	}
+
+    // Register Items
+
+
+
+}
